@@ -1,7 +1,0 @@
-[build]
-  publish = "js-instafeed"
-
-
-
-[template.environment]
-  TOKEN_ONE = "IGQVJXZATJabHVzSWlYRTJpektYVWpaelVPdWIxRDJ2OUFkeDNNSmdIOEpXUURCbkhWYWIzX1d0YkkzanlLeVNIY0RjeXRiLUFNR2ktQnRnVGhNU252Ql9IRkZAGQnV1RzFUMXNla2M1QWhWLVBtS1FvdwZDZD"
