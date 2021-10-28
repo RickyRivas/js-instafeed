@@ -4,7 +4,7 @@
   "description": "Personal library of components. All made with html5, scss, and vanilla javascript.",
   "main": "index.js",
   "dependencies": {
-    "dotenv": "^10.0.0"
+    "axios": "^0.24.0"
   },
   "devDependencies": {},
   "scripts": {

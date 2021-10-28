@@ -16,14 +16,34 @@ navOverlay.addEventListener('click', () => {
     body.classList.toggle('body-fixed');
     navOverlay.classList.toggle('is-active');
 })
-    // Instagram 
-    var feed = new Instafeed({
-        accessToken: `${DEMO_TOKEN_ONE}`
-    });
-    feed.run();
-    console.log(feed)
-   
 
+//
+const fetchInsta = async () => {
+    const response = await fetch('/.netlify/functions/index.js')
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            }
+            else if (!response.ok) {
+                console.log('wtf dude')
+            }
+        })
+        .then(data => {
+            console.log(data)
+        }).catch(error => {
+            console.log(error)
+        })
+    console.log(response)
+}
+fetchInsta();
+// Instagram 
+var feed = new Instafeed({
+    accessToken: `${process.env.DEMO_TOKEN_ONE}`
+});
+feed.run();
+console.log(feed)
+
+INSTAGRAM_ACCESS_TOKEN = "IGQVJXZATJabHVzSWlYRTJpektYVWpaelVPdWIxRDJ2OUFkeDNNSmdIOEpXUURCbkhWYWIzX1d0YkkzanlLeVNIY0RjeXRiLUFNR2ktQnRnVGhNU252Ql9IRkZAGQnV1RzFUMXNla2M1QWhWLVBtS1FvdwZDZD"
 // // Color theme toggle
 // const themeToggle = document.querySelector('.theme-toggle');
 // const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
