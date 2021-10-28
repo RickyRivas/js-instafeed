@@ -18,7 +18,7 @@ navOverlay.addEventListener('click', () => {
 })
 // Instagram 
  var feed = new Instafeed({
-      accessToken: `${process.env.DEMO_TOKEN_ONE}`
+      accessToken: process.env.DEMO_TOKEN_ONE
     });
 feed.run();
     console.log(`${process.env.DEMO_TOKEN_ONE}`)
