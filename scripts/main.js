@@ -18,10 +18,10 @@ navOverlay.addEventListener('click', () => {
 })
 // Instagram 
  var feed = new Instafeed({
-      accessToken: `${process.env.TOKEN_ONE}`
+      accessToken: TOKEN_ONE
     });
 feed.run();
-    console.log(feed)
+    console.log(accessToken)
 // // Color theme toggle
 // const themeToggle = document.querySelector('.theme-toggle');
 // const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
