@@ -1,4 +1,2 @@
+[environment.variables]
 DEMO_TOKEN_ONE="IGQVJXZATJabHVzSWlYRTJpektYVWpaelVPdWIxRDJ2OUFkeDNNSmdIOEpXUURCbkhWYWIzX1d0YkkzanlLeVNIY0RjeXRiLUFNR2ktQnRnVGhNU252Ql9IRkZAGQnV1RzFUMXNla2M1QWhWLVBtS1FvdwZDZD"
-[build]
-  command = "npm run functions"
-  functions = "functions"
