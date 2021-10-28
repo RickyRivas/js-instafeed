@@ -18,10 +18,10 @@ navOverlay.addEventListener('click', () => {
 })
 // Instagram 
  var feed = new Instafeed({
-      accessToken: `${process.env.TOKEN_ONE}`
+      accessToken: `IGQVJXZATJabHVzSWlYRTJpektYVWpaelVPdWIxRDJ2OUFkeDNNSmdIOEpXUURCbkhWYWIzX1d0YkkzanlLeVNIY0RjeXRiLUFNR2ktQnRnVGhNU252Ql9IRkZAGQnV1RzFUMXNla2M1QWhWLVBtS1FvdwZDZD`
     });
 feed.run();
-    console.log(accessToken)
+    console.log(`${process.env.TOKEN_ONE_ONE}`)
 // // Color theme toggle
 // const themeToggle = document.querySelector('.theme-toggle');
 // const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
