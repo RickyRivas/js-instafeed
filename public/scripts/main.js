@@ -21,7 +21,7 @@ navOverlay.addEventListener('click', () => {
       accessToken: `${process.env.DEMO_TOKEN_ONE}`
     });
 feed.run();
-    console.log(`${process.env.TOKEN_ONE}`)
+    console.log(`${process.env.DEMO_TOKEN_ONE}`)
 // // Color theme toggle
 // const themeToggle = document.querySelector('.theme-toggle');
 // const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
