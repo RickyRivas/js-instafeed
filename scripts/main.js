@@ -16,12 +16,14 @@ navOverlay.addEventListener('click', () => {
     body.classList.toggle('body-fixed');
     navOverlay.classList.toggle('is-active');
 })
-// Instagram 
- var feed = new Instafeed({
-      accessToken: process.env.DEMO_TOKEN_ONE
+    // Instagram 
+    var feed = new Instafeed({
+        accessToken: `${process.env.DEMO_TOKEN_ONE}`
     });
-feed.run();
+    feed.run();
     console.log(feed)
+   
+
 // // Color theme toggle
 // const themeToggle = document.querySelector('.theme-toggle');
 // const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
@@ -41,5 +43,3 @@ feed.run();
 //     }
 //     localStorage.setItem('theme', theme)
 // })
-
-

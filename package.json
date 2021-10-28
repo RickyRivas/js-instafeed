@@ -1,0 +1,23 @@
+{
+  "name": "js-instafeed",
+  "version": "1.0.0",
+  "description": "Personal library of components. All made with html5, scss, and vanilla javascript.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickyRivas/js-instafeed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickyRivas/js-instafeed/issues"
+  },
+  "homepage": "https://github.com/RickyRivas/js-instafeed#readme"
+}
