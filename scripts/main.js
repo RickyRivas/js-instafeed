@@ -18,7 +18,7 @@ navOverlay.addEventListener('click', () => {
 })
 // Instagram 
  var feed = new Instafeed({
-      accessToken: 'IGQVJXZATJabHVzSWlYRTJpektYVWpaelVPdWIxRDJ2OUFkeDNNSmdIOEpXUURCbkhWYWIzX1d0YkkzanlLeVNIY0RjeXRiLUFNR2ktQnRnVGhNU252Ql9IRkZAGQnV1RzFUMXNla2M1QWhWLVBtS1FvdwZDZD'
+      accessToken: `${process.env.TOKEN_ONE}`
     });
 feed.run();
     console.log(feed)
