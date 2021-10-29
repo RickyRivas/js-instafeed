@@ -1,5 +1,11 @@
 [build]
+  command = "npm run functions"
+  publish = "public"
   functions = "functions"
 
-[environment.variables]
+[dev]
+  publish = "public"
+  functions = "functions"
+
+[template.environment]
 INSTAGRAM_ACCESS_TOKEN="IGQVJXZATJabHVzSWlYRTJpektYVWpaelVPdWIxRDJ2OUFkeDNNSmdIOEpXUURCbkhWYWIzX1d0YkkzanlLeVNIY0RjeXRiLUFNR2ktQnRnVGhNU252Ql9IRkZAGQnV1RzFUMXNla2M1QWhWLVBtS1FvdwZDZD"

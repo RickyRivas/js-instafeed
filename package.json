@@ -1,10 +1,11 @@
 {
   "name": "js-instafeed",
   "version": "1.0.0",
-  "description": "Personal library of components. All made with html5, scss, and vanilla javascript.",
+  "description": "",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {},
   "scripts": {
